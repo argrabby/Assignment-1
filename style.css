@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+html,
+body {
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* .container {
+    width: 960px;
+    margin: 0 auto;
+} */
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.new-year-banner {
+    width: 1320px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.title {
+    position: absolute;
+    top: 163px;
+    left: 50%;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: translate(-50%, -50%);
+}
+
+.party-title {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: translate(-50%, -50%);
+}
+
+#promotion-offer {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.discount {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-danger {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.category {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer-banner {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+
+#midnight-party-section {
+    background-image: url('./resources/midnight-party.png');
+    margin-bottom: 100px;
+    max-width: 1320px;
+    height: 600px;
+}
+
+.midnight-party {
+    max-width: 1320px;
+    margin: auto;
+    height: 600px;
+    display: flex;
+
+}
+
+.midnight-party-container {
+
+    max-width: 660px;
+
+}
+
+.midnight-party-container>.join-now {
+    margin: 32px 0px 0px 126px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+
+}
+
+
+.midnight-party-title {
+    margin: 126px 0px 0px 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px
+}
+
+.midnight-party-text {
+    margin: 24px 0px 0px 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.midnight-party-container>.img-2024 {
+
+    margin: 100px 0px 0px 200px;
+
+}
+
+#Place-park {
+
+    max-width: 1600px;
+
+}
+
+.park-container {
+
+    max-width: 1320px;
+    margin: 120px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px 385px;
+    height: 482px;
+    border-radius: 10px;
+}
+
+.btn-join {
+
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: #FFF;
+
+
+}
+
+.park-container-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    line-height: 0px;
+    text-transform: capitalize;
+
+}
+
+.comingsoon {
+
+    max-width: 1600px;
+
+}
+
+.commingsoon-main-contant {
+
+    max-width: 1320px;
+    height: 735px;
+    display: flex;
+    gap: 100px;
+}
+
+.comingson-conatiner-header {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.comingson-conatiner-md-header {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.comingson-conatiner-details {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+.comingson-conatiner>.comingson-image {
+
+    border: 15px solid red;
+    border-radius: 360px;
+    padding: 20px;
+
+}
+
+
+.comingson-conatiner-2024 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.comingson-conatiner-textt {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+
+.portfolio-section {
+
+    max-width: 1600px;
+}
+
+.gift {
+
+    max-width: 1320px;
+    margin: auto;
+
+}
+
+.gift-header {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.gift-md-header {
+    margin-top: 13px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+.gift-details {
+    margin: 22px 564px 0px 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.gift-image {
+    margin-top: 48px;
+}
+
+.gift-image>img {
+
+    padding: 5px;
+}
+
+.sec-subscribe {
+
+    max-width: 1600px;
+    margin-bottom: 50px;
+}
+
+.subcribe-container {
+
+    max-width: 1320px;
+    margin: 120px auto;
+    height: 616px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+
+.subcribe-container>.img-mail {
+
+
+    margin-top: 80px;
+
+}
+
+.sub-header {
+
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+
+
+
+}
+
+.subs-text {
+    margin: 0px 212px 0px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.sub-input-field {
+    margin-top: 20px;
+    border-radius: 50px 0px 0px 50px;
+    outline: none;
+    border: none;
+    width: 648px;
+    padding: 17px;
+    font-size: 17px;
+
+}
+
+.btn-sub-field {
+
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    background: #F00;
+    padding: 15px;
+
+}
+
+#footer-body {
+
+    max-width: 1320px;
+    width: 1600px;
+    height: 609px;
+    background: black;
+
+
+}
+
+.footer-contain {
+    margin: auto;
+    max-width: 1320px;
+    display: flex;
+    gap: 490px;
+}
+
+.footer-contain-add {
+
+    max-width: 660px;
+    width: 660px;
+
+}
+
+.footer-contain-add>.contain-add {
+
+    color: #FFF;
+    margin: 140px 0px 0px 120px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.footer-contain-add>.addr-icon {
+    color: #FFF;
+    line-height: 40px;
+    font-family: Inter;
+    margin: 140px 0px 0px 120px;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
+.footer-contain-add>.addr-s-icon {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    margin: 0px 0px 0px 120px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.foot-ico {
+
+    max-width: 1320px;
+    margin: 98px auto;
+    text-align: center;
+
+}
+
+.foot-allrights {
+
+    display: flex;
+    max-width: 1320px;
+    margin-top: 98px auto;
+    justify-content: space-between;
+
+}
+
+.alr-res {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 140px;
+}
+
+.alr-res-sub {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 120px;
+}
+
+.sec-sels {
+
+    max-width: 1600px;
+    margin: 120px;
+
+}
+
+.self-discount {
+    text-align: center;
+    margin: 20px 266px 0px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.self-discount-md-hd {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.self-discount-text {
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+
+}
+
+.sels-image {
+
+    display: flex;
+    position: relative;
+}
+
+.disc-imgess {
+    z-index: 1;
+    margin-top: 90px;
+
+}
+
+.disc-imagessss {
+    margin: 150px 0px 0px 650px;
+    position: absolute;
+
+}
+
+.imag-bacgound-image {
+
+    position: absolute;
+    margin-top: -150px;
+}
